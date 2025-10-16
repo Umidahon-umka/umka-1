@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+header {
+    background-color: #F3D7B7;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.vb {
+    width: 700px;
+    font-size: 64px;
+}
+
+.klass {
+    padding: 50px;
+    background-color: #F3D7B7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hover {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    gap: 400px;
+    font-weight: bold;
+}
+
+.padding {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.hover-container {
+    display: flex;
+    align-items: center;
+}
+
+.name {}
+
+.header-right {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+
+.BOX-2 {
+    background-color: #0A775F;
+    border-radius: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.text {
+    width: 464px;
+    /* display: flex; */
+    height: 72px;
+}
+
+.row-rewers {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 90px;
+    font-weight: bold
+}
+
+.kl-0 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.text-2 {
+    position: relative;
+    left: -1px;
+    z-index: 1;
+    top: 100px;
+    animation: image 2s linear infinite;
+}
+
+.klava-coca {
+    display: flex;
+    gap: 40px;
+}
+
+.width {
+    width: 400px;
+}
+
+.opa {
+    background-color: plum;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.umida {
+    display: flex;
+    position: relative;
+    left: 80px;
+    padding: -20px;
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    padding-top: 40px;
+    background-color: #F3D7B7;
+}
+
+.wrappers {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+
+@keyframes image {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
